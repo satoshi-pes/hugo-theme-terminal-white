@@ -1,3 +1,9 @@
+# Terminal-white
+
+This theme is a fork of [Terminal](https://github.com/panr/hugo-theme-terminal) theme for my purpose.
+The color 'white_blue' is added to the original theme, and the background of the code body is changed to gray.
+(by satoshi-pes)
+
 # Terminal
 
 ![Terminal](https://github.com/panr/hugo-theme-terminal/blob/master/images/screenshot.png?raw=true)
@@ -304,6 +310,7 @@ I'd be happy to know more about you and what you are doing. If you want to share
 
 ## License
 
+Copyright © 2023 Satoshi Kawamoto ([satoshi-pes]https://github.com/satoshi-pes))
 Copyright © 2019-2022 Radosław Kozieł ([@panr](https://twitter.com/panr))
 
 The theme is released under the MIT License. Check the [original theme license](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md) for additional licensing information.
