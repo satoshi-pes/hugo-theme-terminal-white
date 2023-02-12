@@ -54,6 +54,10 @@ body {
   h6 {
     font-size: 1.2rem;
   }
+
+  h3 {
+    color: $accent;
+  }
 }
 
 a {
@@ -131,7 +135,8 @@ code, kbd {
   font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace !important;
   font-feature-settings: normal;
   background: transparentize($accent, .8);
-  color: $accent;
+  //color: $accent;
+  color: $code-color;
   padding: 1px 6px;
   margin: 0 2px;
   font-size: .95rem;
@@ -144,13 +149,17 @@ code, kbd {
 }
 
 pre {
-  background: transparent !important;
+  /*background: transparent !important;*/
+  background: transparentize(#d0d7de, 0.8) !important;
   padding: 20px 10px;
   margin: 40px 0;
   font-size: .95rem !important;
   overflow: auto;
   border-top: 1px solid rgba(255, 255, 255, .1);
   border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+  border: 1px solid gray;
+  border-radius: 6px;
 
   + pre {
     border-top: 0;
